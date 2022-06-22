@@ -55,28 +55,3 @@ C:\Users\firmi\source\repos\myRealRocket\MyRealRocket\bin\Debug\Bunifu.UI.WinFor
 C:\Users\firmi\source\repos\myRealRocket\MyRealRocket\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
 C:\Users\firmi\source\repos\myRealRocket\MyRealRocket\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
 C:\Users\firmi\source\repos\myRealRocket\MyRealRocket\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\MyRealRocket.exe.config
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\MyRealRocket.exe
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\MyRealRocket.pdb
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\OpenTK.dll
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\OpenTK.GLControl.dll
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\System.Security.Principal.Windows.dll
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\EntityFramework.xml
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\Newtonsoft.Json.xml
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\OpenTK.pdb
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\OpenTK.xml
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\OpenTK.GLControl.pdb
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\OpenTK.GLControl.xml
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\System.Data.SqlClient.xml
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\bin\Debug\System.Data.SQLite.xml
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.csproj.AssemblyReference.cache
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.exe.config
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.Form1.resources
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.Properties.Resources.resources
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.csproj.GenerateResource.cache
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.exe.licenses
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.csproj.CoreCompileInputs.cache
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.csproj.CopyComplete
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.exe
-C:\Users\firmi\OneDrive\Documents\visual stuido\MyRealRocket\MyRealRocket\obj\Debug\MyRealRocket.pdb

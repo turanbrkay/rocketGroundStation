@@ -38,12 +38,14 @@ namespace MyRealRocket
         double enlem = 0;
         double boylam = 0;
 
-
+        int myAngle=0;
+        private float _angle = 0;
 
 
         public Form1()
         {
             InitializeComponent();
+            
 
         }
 
@@ -54,12 +56,44 @@ namespace MyRealRocket
 
             //chart1.ChartAreas[0].AxisX.LabelStyle.Format = "d/M/yyyy HH:mm:ss";
 
+            
 
+            
 
 
         }
 
+     
+        public static Bitmap RotateImage(Image image, float angle)
+        {
+            if (image == null)
+                throw new ArgumentNullException("image");
 
+            PointF offset = new PointF((float)image.Width / 2, (float)image.Height / 2);
+
+            //create a new empty bitmap to hold rotated image
+            Bitmap rotatedBmp = new Bitmap(image.Width, image.Height);
+            rotatedBmp.SetResolution(image.HorizontalResolution, image.VerticalResolution);
+
+            //make a graphics object from the empty bitmap
+            Graphics g = Graphics.FromImage(rotatedBmp);
+
+            //Put the rotation point in the center of the image
+            g.TranslateTransform(offset.X, offset.Y);
+
+            //rotate the image
+            g.RotateTransform(angle);
+
+            //move the image back
+            g.TranslateTransform(-offset.X, -offset.Y);
+
+            //draw passed in image onto graphics object
+            g.DrawImage(image, new PointF(0, 0));
+
+            g.ResetTransform();
+
+            return rotatedBmp;
+        }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
@@ -282,8 +316,7 @@ namespace MyRealRocket
             float degerBoylam = float.Parse(yeniBoylamDeger);
             
 
-            siticoneTextBox14.Text = Convert.ToString(degerEnlem);
-            siticoneTextBox13.Text = Convert.ToString(degerBoylam);
+            
 
             map.DragButton = MouseButtons.Left;
 
@@ -375,6 +408,8 @@ namespace MyRealRocket
             kaydet();
 
         }
+
+       
 
 
 

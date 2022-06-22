@@ -33,6 +33,9 @@ namespace MyRealRocket
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.bunifuElipseForm1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -50,38 +53,9 @@ namespace MyRealRocket
             this.siticoneComboBox2 = new ns1.SiticoneComboBox();
             this.PortComboBox = new ns1.SiticoneComboBox();
             this.RefreshButton = new ns1.SiticoneButton();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.siticoneTextBox15 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox13 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox14 = new ns1.SiticoneTextBox();
             this.map = new GMap.NET.WindowsForms.GMapControl();
-            this.button1 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.siticoneTextBox1 = new ns1.SiticoneTextBox();
-            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.siticoneTextBox2 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox3 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox4 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox5 = new ns1.SiticoneTextBox();
-            this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox11 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox12 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.siticoneTextBox6 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox7 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox8 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox9 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox10 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox11 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox12 = new ns1.SiticoneTextBox();
-            this.guna2TextBox13 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox14 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox15 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox16 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox20 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox22 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox23 = new Guna.UI2.WinForms.Guna2TextBox();
             this.YAngleRTextBox = new ns1.SiticoneTextBox();
             this.guna2TextBox21 = new Guna.UI2.WinForms.Guna2TextBox();
             this.KalAngleX = new Guna.UI2.WinForms.Guna2TextBox();
@@ -92,7 +66,6 @@ namespace MyRealRocket
             this.guna2TextBox17 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox18 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox19 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.YukseklikTextBox = new ns1.SiticoneTextBox();
@@ -110,6 +83,8 @@ namespace MyRealRocket
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.siticoneTextBox1 = new ns1.SiticoneTextBox();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.SicaklikRTextBox = new ns1.SiticoneTextBox();
@@ -130,14 +105,22 @@ namespace MyRealRocket
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.bunifuGroupBox2 = new Bunifu.UI.WinForms.BunifuGroupBox();
+            this.bunifuLabel13 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
             this.guna2Panel1.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
+            this.guna2Panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             this.guna2Panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.bunifuGroupBox1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            this.bunifuGroupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // linkLabel1
@@ -221,8 +204,8 @@ namespace MyRealRocket
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.guna2Panel1.BorderColor = System.Drawing.Color.DimGray;
-            this.guna2Panel1.BorderRadius = 2;
-            this.guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Panel1.BorderRadius = 8;
+            this.guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel1.BorderThickness = 1;
             this.guna2Panel1.Controls.Add(this.bunifuLabel2);
             this.guna2Panel1.Controls.Add(this.bunifuLabel1);
@@ -256,7 +239,7 @@ namespace MyRealRocket
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel2.Size = new System.Drawing.Size(126, 18);
             this.bunifuLabel2.TabIndex = 23;
-            this.bunifuLabel2.Text = "Bağlantı Zamanı";
+            this.bunifuLabel2.Text = "Connect Time";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -271,9 +254,9 @@ namespace MyRealRocket
             this.bunifuLabel1.Location = new System.Drawing.Point(27, 141);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(126, 18);
+            this.bunifuLabel1.Size = new System.Drawing.Size(140, 18);
             this.bunifuLabel1.TabIndex = 22;
-            this.bunifuLabel1.Text = "Bağlantı Durumu";
+            this.bunifuLabel1.Text = "Connection Status";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -393,104 +376,6 @@ namespace MyRealRocket
             this.RefreshButton.Text = "Refresh";
             this.RefreshButton.Click += new System.EventHandler(this.RefreshButton_Click);
             // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BorderColor = System.Drawing.Color.DimGray;
-            this.guna2Panel3.BorderRadius = 2;
-            this.guna2Panel3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Panel3.BorderThickness = 1;
-            this.guna2Panel3.Controls.Add(this.siticoneTextBox15);
-            this.guna2Panel3.Controls.Add(this.siticoneTextBox13);
-            this.guna2Panel3.Controls.Add(this.siticoneTextBox14);
-            this.guna2Panel3.Controls.Add(this.map);
-            this.guna2Panel3.Controls.Add(this.button1);
-            this.guna2Panel3.Location = new System.Drawing.Point(15, 458);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(385, 323);
-            this.guna2Panel3.TabIndex = 4;
-            // 
-            // siticoneTextBox15
-            // 
-            this.siticoneTextBox15.BorderRadius = 1;
-            this.siticoneTextBox15.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox15.DefaultText = "";
-            this.siticoneTextBox15.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox15.DisabledState.Parent = this.siticoneTextBox15;
-            this.siticoneTextBox15.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox15.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox15.FocusedState.Parent = this.siticoneTextBox15;
-            this.siticoneTextBox15.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox15.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox15.HoveredState.Parent = this.siticoneTextBox15;
-            this.siticoneTextBox15.Location = new System.Drawing.Point(142, 294);
-            this.siticoneTextBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox15.Name = "siticoneTextBox15";
-            this.siticoneTextBox15.PasswordChar = '\0';
-            this.siticoneTextBox15.PlaceholderText = "";
-            this.siticoneTextBox15.ReadOnly = true;
-            this.siticoneTextBox15.SelectedText = "";
-            this.siticoneTextBox15.ShadowDecoration.Parent = this.siticoneTextBox15;
-            this.siticoneTextBox15.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox15.TabIndex = 231;
-            // 
-            // siticoneTextBox13
-            // 
-            this.siticoneTextBox13.BorderRadius = 1;
-            this.siticoneTextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox13.DefaultText = "";
-            this.siticoneTextBox13.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox13.DisabledState.Parent = this.siticoneTextBox13;
-            this.siticoneTextBox13.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox13.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox13.FocusedState.Parent = this.siticoneTextBox13;
-            this.siticoneTextBox13.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox13.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox13.HoveredState.Parent = this.siticoneTextBox13;
-            this.siticoneTextBox13.Location = new System.Drawing.Point(309, 294);
-            this.siticoneTextBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox13.Name = "siticoneTextBox13";
-            this.siticoneTextBox13.PasswordChar = '\0';
-            this.siticoneTextBox13.PlaceholderText = "";
-            this.siticoneTextBox13.ReadOnly = true;
-            this.siticoneTextBox13.SelectedText = "";
-            this.siticoneTextBox13.ShadowDecoration.Parent = this.siticoneTextBox13;
-            this.siticoneTextBox13.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox13.TabIndex = 229;
-            // 
-            // siticoneTextBox14
-            // 
-            this.siticoneTextBox14.BorderRadius = 1;
-            this.siticoneTextBox14.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox14.DefaultText = "";
-            this.siticoneTextBox14.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox14.DisabledState.Parent = this.siticoneTextBox14;
-            this.siticoneTextBox14.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox14.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox14.FocusedState.Parent = this.siticoneTextBox14;
-            this.siticoneTextBox14.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox14.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox14.HoveredState.Parent = this.siticoneTextBox14;
-            this.siticoneTextBox14.Location = new System.Drawing.Point(230, 294);
-            this.siticoneTextBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox14.Name = "siticoneTextBox14";
-            this.siticoneTextBox14.PasswordChar = '\0';
-            this.siticoneTextBox14.PlaceholderText = "";
-            this.siticoneTextBox14.ReadOnly = true;
-            this.siticoneTextBox14.SelectedText = "";
-            this.siticoneTextBox14.ShadowDecoration.Parent = this.siticoneTextBox14;
-            this.siticoneTextBox14.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox14.TabIndex = 230;
-            // 
             // map
             // 
             this.map.Bearing = 0F;
@@ -499,7 +384,7 @@ namespace MyRealRocket
             this.map.GrayScaleMode = false;
             this.map.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.map.LevelsKeepInMemory = 5;
-            this.map.Location = new System.Drawing.Point(14, 10);
+            this.map.Location = new System.Drawing.Point(17, 37);
             this.map.MarkersEnabled = true;
             this.map.MaxZoom = 2;
             this.map.MinZoom = 2;
@@ -513,19 +398,9 @@ namespace MyRealRocket
             this.map.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.map.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.map.ShowTileGridLines = false;
-            this.map.Size = new System.Drawing.Size(352, 258);
+            this.map.Size = new System.Drawing.Size(352, 274);
             this.map.TabIndex = 0;
             this.map.Zoom = 0D;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(15, 294);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
@@ -534,41 +409,18 @@ namespace MyRealRocket
             this.listBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(420, 25);
+            this.listBox1.Location = new System.Drawing.Point(418, 458);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(579, 304);
+            this.listBox1.Size = new System.Drawing.Size(579, 319);
             this.listBox1.TabIndex = 0;
             // 
             // guna2Panel5
             // 
+            this.guna2Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.guna2Panel5.BorderColor = System.Drawing.Color.DimGray;
             this.guna2Panel5.BorderRadius = 2;
-            this.guna2Panel5.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Panel5.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel5.BorderThickness = 1;
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox1);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox6);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox9);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox2);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox3);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox4);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox5);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox10);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox11);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox12);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox6);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox7);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox8);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox9);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox10);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox11);
-            this.guna2Panel5.Controls.Add(this.siticoneTextBox12);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox13);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox14);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox15);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox16);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox20);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox22);
-            this.guna2Panel5.Controls.Add(this.guna2TextBox23);
             this.guna2Panel5.Controls.Add(this.YAngleRTextBox);
             this.guna2Panel5.Controls.Add(this.guna2TextBox21);
             this.guna2Panel5.Controls.Add(this.KalAngleX);
@@ -579,7 +431,6 @@ namespace MyRealRocket
             this.guna2Panel5.Controls.Add(this.guna2TextBox17);
             this.guna2Panel5.Controls.Add(this.guna2TextBox18);
             this.guna2Panel5.Controls.Add(this.guna2TextBox19);
-            this.guna2Panel5.Controls.Add(this.linkLabel4);
             this.guna2Panel5.Controls.Add(this.bunifuSeparator1);
             this.guna2Panel5.Controls.Add(this.linkLabel3);
             this.guna2Panel5.Controls.Add(this.YukseklikTextBox);
@@ -596,683 +447,11 @@ namespace MyRealRocket
             this.guna2Panel5.Controls.Add(this.guna2TextBox3);
             this.guna2Panel5.Controls.Add(this.guna2TextBox2);
             this.guna2Panel5.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel5.Location = new System.Drawing.Point(420, 458);
+            this.guna2Panel5.Location = new System.Drawing.Point(418, 25);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
-            this.guna2Panel5.Size = new System.Drawing.Size(579, 323);
+            this.guna2Panel5.Size = new System.Drawing.Size(579, 199);
             this.guna2Panel5.TabIndex = 6;
-            // 
-            // siticoneTextBox1
-            // 
-            this.siticoneTextBox1.BorderRadius = 1;
-            this.siticoneTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox1.DefaultText = "";
-            this.siticoneTextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.DisabledState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.FocusedState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox1.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.HoveredState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Location = new System.Drawing.Point(395, 234);
-            this.siticoneTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox1.Name = "siticoneTextBox1";
-            this.siticoneTextBox1.PasswordChar = '\0';
-            this.siticoneTextBox1.PlaceholderText = "";
-            this.siticoneTextBox1.ReadOnly = true;
-            this.siticoneTextBox1.SelectedText = "";
-            this.siticoneTextBox1.ShadowDecoration.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Size = new System.Drawing.Size(77, 22);
-            this.siticoneTextBox1.TabIndex = 228;
-            // 
-            // guna2TextBox6
-            // 
-            this.guna2TextBox6.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox6.BorderRadius = 1;
-            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox6.DefaultText = "Angle-Y";
-            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.DisabledState.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.FocusedState.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.HoverState.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.Location = new System.Drawing.Point(395, 205);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox6.Name = "guna2TextBox6";
-            this.guna2TextBox6.PasswordChar = '\0';
-            this.guna2TextBox6.PlaceholderText = "";
-            this.guna2TextBox6.ReadOnly = true;
-            this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.SelectionStart = 7;
-            this.guna2TextBox6.ShadowDecoration.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.Size = new System.Drawing.Size(77, 25);
-            this.guna2TextBox6.TabIndex = 227;
-            // 
-            // guna2TextBox9
-            // 
-            this.guna2TextBox9.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox9.BorderRadius = 1;
-            this.guna2TextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox9.DefaultText = "Angle-X";
-            this.guna2TextBox9.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.DisabledState.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox9.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.FocusedState.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.HoverState.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.Location = new System.Drawing.Point(490, 205);
-            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox9.Name = "guna2TextBox9";
-            this.guna2TextBox9.PasswordChar = '\0';
-            this.guna2TextBox9.PlaceholderText = "";
-            this.guna2TextBox9.ReadOnly = true;
-            this.guna2TextBox9.SelectedText = "";
-            this.guna2TextBox9.SelectionStart = 7;
-            this.guna2TextBox9.ShadowDecoration.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.Size = new System.Drawing.Size(77, 25);
-            this.guna2TextBox9.TabIndex = 226;
-            // 
-            // siticoneTextBox2
-            // 
-            this.siticoneTextBox2.BorderRadius = 1;
-            this.siticoneTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox2.DefaultText = "";
-            this.siticoneTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.DisabledState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.FocusedState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox2.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.HoveredState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Location = new System.Drawing.Point(491, 234);
-            this.siticoneTextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox2.Name = "siticoneTextBox2";
-            this.siticoneTextBox2.PasswordChar = '\0';
-            this.siticoneTextBox2.PlaceholderText = "";
-            this.siticoneTextBox2.ReadOnly = true;
-            this.siticoneTextBox2.SelectedText = "";
-            this.siticoneTextBox2.ShadowDecoration.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Size = new System.Drawing.Size(77, 22);
-            this.siticoneTextBox2.TabIndex = 225;
-            // 
-            // siticoneTextBox3
-            // 
-            this.siticoneTextBox3.BorderRadius = 1;
-            this.siticoneTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox3.DefaultText = "";
-            this.siticoneTextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox3.DisabledState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox3.FocusedState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox3.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox3.HoveredState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Location = new System.Drawing.Point(490, 296);
-            this.siticoneTextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox3.Name = "siticoneTextBox3";
-            this.siticoneTextBox3.PasswordChar = '\0';
-            this.siticoneTextBox3.PlaceholderText = "";
-            this.siticoneTextBox3.ReadOnly = true;
-            this.siticoneTextBox3.SelectedText = "";
-            this.siticoneTextBox3.ShadowDecoration.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Size = new System.Drawing.Size(78, 22);
-            this.siticoneTextBox3.TabIndex = 221;
-            // 
-            // siticoneTextBox4
-            // 
-            this.siticoneTextBox4.BorderRadius = 1;
-            this.siticoneTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox4.DefaultText = "";
-            this.siticoneTextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox4.DisabledState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox4.FocusedState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox4.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox4.HoveredState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Location = new System.Drawing.Point(395, 295);
-            this.siticoneTextBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox4.Name = "siticoneTextBox4";
-            this.siticoneTextBox4.PasswordChar = '\0';
-            this.siticoneTextBox4.PlaceholderText = "";
-            this.siticoneTextBox4.ReadOnly = true;
-            this.siticoneTextBox4.SelectedText = "";
-            this.siticoneTextBox4.ShadowDecoration.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Size = new System.Drawing.Size(77, 22);
-            this.siticoneTextBox4.TabIndex = 220;
-            // 
-            // siticoneTextBox5
-            // 
-            this.siticoneTextBox5.BorderRadius = 1;
-            this.siticoneTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox5.DefaultText = "";
-            this.siticoneTextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox5.DisabledState.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox5.FocusedState.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox5.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox5.HoveredState.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.Location = new System.Drawing.Point(299, 295);
-            this.siticoneTextBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox5.Name = "siticoneTextBox5";
-            this.siticoneTextBox5.PasswordChar = '\0';
-            this.siticoneTextBox5.PlaceholderText = "";
-            this.siticoneTextBox5.ReadOnly = true;
-            this.siticoneTextBox5.SelectedText = "";
-            this.siticoneTextBox5.ShadowDecoration.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.Size = new System.Drawing.Size(77, 22);
-            this.siticoneTextBox5.TabIndex = 219;
-            // 
-            // guna2TextBox10
-            // 
-            this.guna2TextBox10.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox10.BorderRadius = 1;
-            this.guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox10.DefaultText = "Gyro-Y";
-            this.guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.DisabledState.Parent = this.guna2TextBox10;
-            this.guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox10.FocusedState.Parent = this.guna2TextBox10;
-            this.guna2TextBox10.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox10.HoverState.Parent = this.guna2TextBox10;
-            this.guna2TextBox10.Location = new System.Drawing.Point(395, 266);
-            this.guna2TextBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox10.Name = "guna2TextBox10";
-            this.guna2TextBox10.PasswordChar = '\0';
-            this.guna2TextBox10.PlaceholderText = "";
-            this.guna2TextBox10.ReadOnly = true;
-            this.guna2TextBox10.SelectedText = "";
-            this.guna2TextBox10.SelectionStart = 6;
-            this.guna2TextBox10.ShadowDecoration.Parent = this.guna2TextBox10;
-            this.guna2TextBox10.Size = new System.Drawing.Size(77, 25);
-            this.guna2TextBox10.TabIndex = 218;
-            // 
-            // guna2TextBox11
-            // 
-            this.guna2TextBox11.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox11.BorderRadius = 1;
-            this.guna2TextBox11.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox11.DefaultText = "Gyro-Z";
-            this.guna2TextBox11.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox11.DisabledState.Parent = this.guna2TextBox11;
-            this.guna2TextBox11.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox11.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox11.FocusedState.Parent = this.guna2TextBox11;
-            this.guna2TextBox11.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox11.HoverState.Parent = this.guna2TextBox11;
-            this.guna2TextBox11.Location = new System.Drawing.Point(490, 266);
-            this.guna2TextBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox11.Name = "guna2TextBox11";
-            this.guna2TextBox11.PasswordChar = '\0';
-            this.guna2TextBox11.PlaceholderText = "";
-            this.guna2TextBox11.ReadOnly = true;
-            this.guna2TextBox11.SelectedText = "";
-            this.guna2TextBox11.SelectionStart = 6;
-            this.guna2TextBox11.ShadowDecoration.Parent = this.guna2TextBox11;
-            this.guna2TextBox11.Size = new System.Drawing.Size(78, 25);
-            this.guna2TextBox11.TabIndex = 217;
-            // 
-            // guna2TextBox12
-            // 
-            this.guna2TextBox12.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox12.BorderRadius = 1;
-            this.guna2TextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox12.DefaultText = "Gyro-X";
-            this.guna2TextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox12.DisabledState.Parent = this.guna2TextBox12;
-            this.guna2TextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox12.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox12.FocusedState.Parent = this.guna2TextBox12;
-            this.guna2TextBox12.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox12.HoverState.Parent = this.guna2TextBox12;
-            this.guna2TextBox12.Location = new System.Drawing.Point(299, 266);
-            this.guna2TextBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox12.Name = "guna2TextBox12";
-            this.guna2TextBox12.PasswordChar = '\0';
-            this.guna2TextBox12.PlaceholderText = "";
-            this.guna2TextBox12.ReadOnly = true;
-            this.guna2TextBox12.SelectedText = "";
-            this.guna2TextBox12.SelectionStart = 6;
-            this.guna2TextBox12.ShadowDecoration.Parent = this.guna2TextBox12;
-            this.guna2TextBox12.Size = new System.Drawing.Size(77, 25);
-            this.guna2TextBox12.TabIndex = 216;
-            // 
-            // siticoneTextBox6
-            // 
-            this.siticoneTextBox6.BorderRadius = 1;
-            this.siticoneTextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox6.DefaultText = "";
-            this.siticoneTextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox6.DisabledState.Parent = this.siticoneTextBox6;
-            this.siticoneTextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox6.FocusedState.Parent = this.siticoneTextBox6;
-            this.siticoneTextBox6.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox6.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox6.HoveredState.Parent = this.siticoneTextBox6;
-            this.siticoneTextBox6.Location = new System.Drawing.Point(299, 235);
-            this.siticoneTextBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox6.Name = "siticoneTextBox6";
-            this.siticoneTextBox6.PasswordChar = '\0';
-            this.siticoneTextBox6.PlaceholderText = "";
-            this.siticoneTextBox6.ReadOnly = true;
-            this.siticoneTextBox6.SelectedText = "";
-            this.siticoneTextBox6.ShadowDecoration.Parent = this.siticoneTextBox6;
-            this.siticoneTextBox6.Size = new System.Drawing.Size(77, 22);
-            this.siticoneTextBox6.TabIndex = 215;
-            // 
-            // siticoneTextBox7
-            // 
-            this.siticoneTextBox7.BorderRadius = 1;
-            this.siticoneTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox7.DefaultText = "";
-            this.siticoneTextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox7.DisabledState.Parent = this.siticoneTextBox7;
-            this.siticoneTextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox7.FocusedState.Parent = this.siticoneTextBox7;
-            this.siticoneTextBox7.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox7.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox7.HoveredState.Parent = this.siticoneTextBox7;
-            this.siticoneTextBox7.Location = new System.Drawing.Point(203, 235);
-            this.siticoneTextBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox7.Name = "siticoneTextBox7";
-            this.siticoneTextBox7.PasswordChar = '\0';
-            this.siticoneTextBox7.PlaceholderText = "";
-            this.siticoneTextBox7.ReadOnly = true;
-            this.siticoneTextBox7.SelectedText = "";
-            this.siticoneTextBox7.ShadowDecoration.Parent = this.siticoneTextBox7;
-            this.siticoneTextBox7.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox7.TabIndex = 214;
-            // 
-            // siticoneTextBox8
-            // 
-            this.siticoneTextBox8.BorderRadius = 1;
-            this.siticoneTextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox8.DefaultText = "";
-            this.siticoneTextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox8.DisabledState.Parent = this.siticoneTextBox8;
-            this.siticoneTextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox8.FocusedState.Parent = this.siticoneTextBox8;
-            this.siticoneTextBox8.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox8.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox8.HoveredState.Parent = this.siticoneTextBox8;
-            this.siticoneTextBox8.Location = new System.Drawing.Point(203, 296);
-            this.siticoneTextBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox8.Name = "siticoneTextBox8";
-            this.siticoneTextBox8.PasswordChar = '\0';
-            this.siticoneTextBox8.PlaceholderText = "";
-            this.siticoneTextBox8.ReadOnly = true;
-            this.siticoneTextBox8.SelectedText = "";
-            this.siticoneTextBox8.ShadowDecoration.Parent = this.siticoneTextBox8;
-            this.siticoneTextBox8.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox8.TabIndex = 213;
-            // 
-            // siticoneTextBox9
-            // 
-            this.siticoneTextBox9.BorderRadius = 1;
-            this.siticoneTextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox9.DefaultText = "";
-            this.siticoneTextBox9.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox9.DisabledState.Parent = this.siticoneTextBox9;
-            this.siticoneTextBox9.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox9.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox9.FocusedState.Parent = this.siticoneTextBox9;
-            this.siticoneTextBox9.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox9.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox9.HoveredState.Parent = this.siticoneTextBox9;
-            this.siticoneTextBox9.Location = new System.Drawing.Point(108, 295);
-            this.siticoneTextBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox9.Name = "siticoneTextBox9";
-            this.siticoneTextBox9.PasswordChar = '\0';
-            this.siticoneTextBox9.PlaceholderText = "";
-            this.siticoneTextBox9.ReadOnly = true;
-            this.siticoneTextBox9.SelectedText = "";
-            this.siticoneTextBox9.ShadowDecoration.Parent = this.siticoneTextBox9;
-            this.siticoneTextBox9.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox9.TabIndex = 212;
-            // 
-            // siticoneTextBox10
-            // 
-            this.siticoneTextBox10.BorderRadius = 1;
-            this.siticoneTextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox10.DefaultText = "";
-            this.siticoneTextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox10.DisabledState.Parent = this.siticoneTextBox10;
-            this.siticoneTextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox10.FocusedState.Parent = this.siticoneTextBox10;
-            this.siticoneTextBox10.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox10.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox10.HoveredState.Parent = this.siticoneTextBox10;
-            this.siticoneTextBox10.Location = new System.Drawing.Point(12, 295);
-            this.siticoneTextBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox10.Name = "siticoneTextBox10";
-            this.siticoneTextBox10.PasswordChar = '\0';
-            this.siticoneTextBox10.PlaceholderText = "";
-            this.siticoneTextBox10.ReadOnly = true;
-            this.siticoneTextBox10.SelectedText = "";
-            this.siticoneTextBox10.ShadowDecoration.Parent = this.siticoneTextBox10;
-            this.siticoneTextBox10.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox10.TabIndex = 222;
-            // 
-            // siticoneTextBox11
-            // 
-            this.siticoneTextBox11.BorderRadius = 1;
-            this.siticoneTextBox11.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox11.DefaultText = "";
-            this.siticoneTextBox11.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox11.DisabledState.Parent = this.siticoneTextBox11;
-            this.siticoneTextBox11.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox11.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox11.FocusedState.Parent = this.siticoneTextBox11;
-            this.siticoneTextBox11.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox11.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox11.HoveredState.Parent = this.siticoneTextBox11;
-            this.siticoneTextBox11.Location = new System.Drawing.Point(108, 234);
-            this.siticoneTextBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox11.Name = "siticoneTextBox11";
-            this.siticoneTextBox11.PasswordChar = '\0';
-            this.siticoneTextBox11.PlaceholderText = "";
-            this.siticoneTextBox11.ReadOnly = true;
-            this.siticoneTextBox11.SelectedText = "";
-            this.siticoneTextBox11.ShadowDecoration.Parent = this.siticoneTextBox11;
-            this.siticoneTextBox11.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox11.TabIndex = 223;
-            // 
-            // siticoneTextBox12
-            // 
-            this.siticoneTextBox12.BorderRadius = 1;
-            this.siticoneTextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox12.DefaultText = "";
-            this.siticoneTextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox12.DisabledState.Parent = this.siticoneTextBox12;
-            this.siticoneTextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.siticoneTextBox12.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox12.FocusedState.Parent = this.siticoneTextBox12;
-            this.siticoneTextBox12.ForeColor = System.Drawing.Color.Snow;
-            this.siticoneTextBox12.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox12.HoveredState.Parent = this.siticoneTextBox12;
-            this.siticoneTextBox12.Location = new System.Drawing.Point(12, 234);
-            this.siticoneTextBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.siticoneTextBox12.Name = "siticoneTextBox12";
-            this.siticoneTextBox12.PasswordChar = '\0';
-            this.siticoneTextBox12.PlaceholderText = "";
-            this.siticoneTextBox12.ReadOnly = true;
-            this.siticoneTextBox12.SelectedText = "";
-            this.siticoneTextBox12.ShadowDecoration.Parent = this.siticoneTextBox12;
-            this.siticoneTextBox12.Size = new System.Drawing.Size(69, 22);
-            this.siticoneTextBox12.TabIndex = 224;
-            // 
-            // guna2TextBox13
-            // 
-            this.guna2TextBox13.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox13.BorderRadius = 1;
-            this.guna2TextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox13.DefaultText = "Yükseklik";
-            this.guna2TextBox13.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox13.DisabledState.Parent = this.guna2TextBox13;
-            this.guna2TextBox13.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox13.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox13.FocusedState.Parent = this.guna2TextBox13;
-            this.guna2TextBox13.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox13.HoverState.Parent = this.guna2TextBox13;
-            this.guna2TextBox13.Location = new System.Drawing.Point(299, 205);
-            this.guna2TextBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox13.Name = "guna2TextBox13";
-            this.guna2TextBox13.PasswordChar = '\0';
-            this.guna2TextBox13.PlaceholderText = "";
-            this.guna2TextBox13.ReadOnly = true;
-            this.guna2TextBox13.SelectedText = "";
-            this.guna2TextBox13.SelectionStart = 9;
-            this.guna2TextBox13.ShadowDecoration.Parent = this.guna2TextBox13;
-            this.guna2TextBox13.Size = new System.Drawing.Size(77, 25);
-            this.guna2TextBox13.TabIndex = 211;
-            // 
-            // guna2TextBox14
-            // 
-            this.guna2TextBox14.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox14.BorderRadius = 1;
-            this.guna2TextBox14.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox14.DefaultText = "Basınç";
-            this.guna2TextBox14.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox14.DisabledState.Parent = this.guna2TextBox14;
-            this.guna2TextBox14.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox14.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox14.FocusedState.Parent = this.guna2TextBox14;
-            this.guna2TextBox14.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox14.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox14.HoverState.Parent = this.guna2TextBox14;
-            this.guna2TextBox14.Location = new System.Drawing.Point(203, 205);
-            this.guna2TextBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox14.Name = "guna2TextBox14";
-            this.guna2TextBox14.PasswordChar = '\0';
-            this.guna2TextBox14.PlaceholderText = "";
-            this.guna2TextBox14.ReadOnly = true;
-            this.guna2TextBox14.SelectedText = "";
-            this.guna2TextBox14.SelectionStart = 6;
-            this.guna2TextBox14.ShadowDecoration.Parent = this.guna2TextBox14;
-            this.guna2TextBox14.Size = new System.Drawing.Size(69, 25);
-            this.guna2TextBox14.TabIndex = 210;
-            // 
-            // guna2TextBox15
-            // 
-            this.guna2TextBox15.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox15.BorderRadius = 1;
-            this.guna2TextBox15.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox15.DefaultText = "İvme-Y";
-            this.guna2TextBox15.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox15.DisabledState.Parent = this.guna2TextBox15;
-            this.guna2TextBox15.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox15.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox15.FocusedState.Parent = this.guna2TextBox15;
-            this.guna2TextBox15.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox15.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox15.HoverState.Parent = this.guna2TextBox15;
-            this.guna2TextBox15.Location = new System.Drawing.Point(108, 266);
-            this.guna2TextBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox15.Name = "guna2TextBox15";
-            this.guna2TextBox15.PasswordChar = '\0';
-            this.guna2TextBox15.PlaceholderText = "";
-            this.guna2TextBox15.ReadOnly = true;
-            this.guna2TextBox15.SelectedText = "";
-            this.guna2TextBox15.SelectionStart = 6;
-            this.guna2TextBox15.ShadowDecoration.Parent = this.guna2TextBox15;
-            this.guna2TextBox15.Size = new System.Drawing.Size(69, 25);
-            this.guna2TextBox15.TabIndex = 209;
-            // 
-            // guna2TextBox16
-            // 
-            this.guna2TextBox16.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox16.BorderRadius = 1;
-            this.guna2TextBox16.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox16.DefaultText = "İvme-Z";
-            this.guna2TextBox16.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox16.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox16.DisabledState.Parent = this.guna2TextBox16;
-            this.guna2TextBox16.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox16.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox16.FocusedState.Parent = this.guna2TextBox16;
-            this.guna2TextBox16.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox16.HoverState.Parent = this.guna2TextBox16;
-            this.guna2TextBox16.Location = new System.Drawing.Point(203, 266);
-            this.guna2TextBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox16.Name = "guna2TextBox16";
-            this.guna2TextBox16.PasswordChar = '\0';
-            this.guna2TextBox16.PlaceholderText = "";
-            this.guna2TextBox16.ReadOnly = true;
-            this.guna2TextBox16.SelectedText = "";
-            this.guna2TextBox16.SelectionStart = 6;
-            this.guna2TextBox16.ShadowDecoration.Parent = this.guna2TextBox16;
-            this.guna2TextBox16.Size = new System.Drawing.Size(69, 25);
-            this.guna2TextBox16.TabIndex = 208;
-            // 
-            // guna2TextBox20
-            // 
-            this.guna2TextBox20.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox20.BorderRadius = 1;
-            this.guna2TextBox20.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox20.DefaultText = "İvme-X";
-            this.guna2TextBox20.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox20.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox20.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox20.DisabledState.Parent = this.guna2TextBox20;
-            this.guna2TextBox20.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox20.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox20.FocusedState.Parent = this.guna2TextBox20;
-            this.guna2TextBox20.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox20.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox20.HoverState.Parent = this.guna2TextBox20;
-            this.guna2TextBox20.Location = new System.Drawing.Point(12, 266);
-            this.guna2TextBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox20.Name = "guna2TextBox20";
-            this.guna2TextBox20.PasswordChar = '\0';
-            this.guna2TextBox20.PlaceholderText = "";
-            this.guna2TextBox20.ReadOnly = true;
-            this.guna2TextBox20.SelectedText = "";
-            this.guna2TextBox20.SelectionStart = 6;
-            this.guna2TextBox20.ShadowDecoration.Parent = this.guna2TextBox20;
-            this.guna2TextBox20.Size = new System.Drawing.Size(69, 25);
-            this.guna2TextBox20.TabIndex = 207;
-            // 
-            // guna2TextBox22
-            // 
-            this.guna2TextBox22.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox22.BorderRadius = 1;
-            this.guna2TextBox22.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox22.DefaultText = "Boylam";
-            this.guna2TextBox22.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox22.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox22.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox22.DisabledState.Parent = this.guna2TextBox22;
-            this.guna2TextBox22.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox22.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox22.FocusedState.Parent = this.guna2TextBox22;
-            this.guna2TextBox22.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox22.HoverState.Parent = this.guna2TextBox22;
-            this.guna2TextBox22.Location = new System.Drawing.Point(108, 205);
-            this.guna2TextBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox22.Name = "guna2TextBox22";
-            this.guna2TextBox22.PasswordChar = '\0';
-            this.guna2TextBox22.PlaceholderText = "";
-            this.guna2TextBox22.ReadOnly = true;
-            this.guna2TextBox22.SelectedText = "";
-            this.guna2TextBox22.SelectionStart = 6;
-            this.guna2TextBox22.ShadowDecoration.Parent = this.guna2TextBox22;
-            this.guna2TextBox22.Size = new System.Drawing.Size(69, 25);
-            this.guna2TextBox22.TabIndex = 206;
-            // 
-            // guna2TextBox23
-            // 
-            this.guna2TextBox23.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox23.BorderRadius = 1;
-            this.guna2TextBox23.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox23.DefaultText = "Enlem";
-            this.guna2TextBox23.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox23.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox23.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox23.DisabledState.Parent = this.guna2TextBox23;
-            this.guna2TextBox23.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.guna2TextBox23.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox23.FocusedState.Parent = this.guna2TextBox23;
-            this.guna2TextBox23.ForeColor = System.Drawing.Color.White;
-            this.guna2TextBox23.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox23.HoverState.Parent = this.guna2TextBox23;
-            this.guna2TextBox23.Location = new System.Drawing.Point(12, 205);
-            this.guna2TextBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox23.Name = "guna2TextBox23";
-            this.guna2TextBox23.PasswordChar = '\0';
-            this.guna2TextBox23.PlaceholderText = "";
-            this.guna2TextBox23.ReadOnly = true;
-            this.guna2TextBox23.SelectedText = "";
-            this.guna2TextBox23.SelectionStart = 5;
-            this.guna2TextBox23.ShadowDecoration.Parent = this.guna2TextBox23;
-            this.guna2TextBox23.Size = new System.Drawing.Size(69, 25);
-            this.guna2TextBox23.TabIndex = 205;
             // 
             // YAngleRTextBox
             // 
@@ -1402,7 +581,7 @@ namespace MyRealRocket
             this.ZGyroRTextBox.ForeColor = System.Drawing.Color.Snow;
             this.ZGyroRTextBox.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ZGyroRTextBox.HoveredState.Parent = this.ZGyroRTextBox;
-            this.ZGyroRTextBox.Location = new System.Drawing.Point(490, 124);
+            this.ZGyroRTextBox.Location = new System.Drawing.Point(490, 153);
             this.ZGyroRTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ZGyroRTextBox.Name = "ZGyroRTextBox";
             this.ZGyroRTextBox.PasswordChar = '\0';
@@ -1429,7 +608,7 @@ namespace MyRealRocket
             this.YGyroRTextBox.ForeColor = System.Drawing.Color.Snow;
             this.YGyroRTextBox.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.YGyroRTextBox.HoveredState.Parent = this.YGyroRTextBox;
-            this.YGyroRTextBox.Location = new System.Drawing.Point(395, 123);
+            this.YGyroRTextBox.Location = new System.Drawing.Point(395, 152);
             this.YGyroRTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.YGyroRTextBox.Name = "YGyroRTextBox";
             this.YGyroRTextBox.PasswordChar = '\0';
@@ -1456,7 +635,7 @@ namespace MyRealRocket
             this.XGyroRTextBox.ForeColor = System.Drawing.Color.Snow;
             this.XGyroRTextBox.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.XGyroRTextBox.HoveredState.Parent = this.XGyroRTextBox;
-            this.XGyroRTextBox.Location = new System.Drawing.Point(299, 123);
+            this.XGyroRTextBox.Location = new System.Drawing.Point(299, 152);
             this.XGyroRTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XGyroRTextBox.Name = "XGyroRTextBox";
             this.XGyroRTextBox.PasswordChar = '\0';
@@ -1484,7 +663,7 @@ namespace MyRealRocket
             this.guna2TextBox17.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox17.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox17.HoverState.Parent = this.guna2TextBox17;
-            this.guna2TextBox17.Location = new System.Drawing.Point(395, 94);
+            this.guna2TextBox17.Location = new System.Drawing.Point(395, 123);
             this.guna2TextBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox17.Name = "guna2TextBox17";
             this.guna2TextBox17.PasswordChar = '\0';
@@ -1513,7 +692,7 @@ namespace MyRealRocket
             this.guna2TextBox18.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox18.HoverState.Parent = this.guna2TextBox18;
-            this.guna2TextBox18.Location = new System.Drawing.Point(490, 94);
+            this.guna2TextBox18.Location = new System.Drawing.Point(490, 123);
             this.guna2TextBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox18.Name = "guna2TextBox18";
             this.guna2TextBox18.PasswordChar = '\0';
@@ -1542,7 +721,7 @@ namespace MyRealRocket
             this.guna2TextBox19.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox19.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox19.HoverState.Parent = this.guna2TextBox19;
-            this.guna2TextBox19.Location = new System.Drawing.Point(299, 94);
+            this.guna2TextBox19.Location = new System.Drawing.Point(299, 123);
             this.guna2TextBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox19.Name = "guna2TextBox19";
             this.guna2TextBox19.PasswordChar = '\0';
@@ -1554,18 +733,6 @@ namespace MyRealRocket
             this.guna2TextBox19.Size = new System.Drawing.Size(77, 25);
             this.guna2TextBox19.TabIndex = 35;
             // 
-            // linkLabel4
-            // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.linkLabel4.LinkColor = System.Drawing.Color.White;
-            this.linkLabel4.Location = new System.Drawing.Point(5, 175);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(172, 20);
-            this.linkLabel4.TabIndex = 18;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Faydalı Yük Verisi :";
-            // 
             // bunifuSeparator1
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
@@ -1575,11 +742,11 @@ namespace MyRealRocket
             this.bunifuSeparator1.LineColor = System.Drawing.Color.Silver;
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(4, 154);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(12, 98);
             this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(564, 17);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(556, 17);
             this.bunifuSeparator1.TabIndex = 17;
             // 
             // linkLabel3
@@ -1589,10 +756,10 @@ namespace MyRealRocket
             this.linkLabel3.LinkColor = System.Drawing.Color.White;
             this.linkLabel3.Location = new System.Drawing.Point(5, 5);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(124, 20);
+            this.linkLabel3.Size = new System.Drawing.Size(156, 25);
             this.linkLabel3.TabIndex = 16;
             this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Roket Verisi :";
+            this.linkLabel3.Text = "Rocket Data :";
             // 
             // YukseklikTextBox
             // 
@@ -1637,7 +804,7 @@ namespace MyRealRocket
             this.BasinçRTextBox.ForeColor = System.Drawing.Color.Snow;
             this.BasinçRTextBox.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.BasinçRTextBox.HoveredState.Parent = this.BasinçRTextBox;
-            this.BasinçRTextBox.Location = new System.Drawing.Point(203, 63);
+            this.BasinçRTextBox.Location = new System.Drawing.Point(209, 63);
             this.BasinçRTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BasinçRTextBox.Name = "BasinçRTextBox";
             this.BasinçRTextBox.PasswordChar = '\0';
@@ -1645,7 +812,7 @@ namespace MyRealRocket
             this.BasinçRTextBox.ReadOnly = true;
             this.BasinçRTextBox.SelectedText = "";
             this.BasinçRTextBox.ShadowDecoration.Parent = this.BasinçRTextBox;
-            this.BasinçRTextBox.Size = new System.Drawing.Size(69, 22);
+            this.BasinçRTextBox.Size = new System.Drawing.Size(71, 22);
             this.BasinçRTextBox.TabIndex = 14;
             // 
             // ZIvmeRTextBox
@@ -1664,7 +831,7 @@ namespace MyRealRocket
             this.ZIvmeRTextBox.ForeColor = System.Drawing.Color.Snow;
             this.ZIvmeRTextBox.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ZIvmeRTextBox.HoveredState.Parent = this.ZIvmeRTextBox;
-            this.ZIvmeRTextBox.Location = new System.Drawing.Point(203, 124);
+            this.ZIvmeRTextBox.Location = new System.Drawing.Point(209, 153);
             this.ZIvmeRTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ZIvmeRTextBox.Name = "ZIvmeRTextBox";
             this.ZIvmeRTextBox.PasswordChar = '\0';
@@ -1672,7 +839,7 @@ namespace MyRealRocket
             this.ZIvmeRTextBox.ReadOnly = true;
             this.ZIvmeRTextBox.SelectedText = "";
             this.ZIvmeRTextBox.ShadowDecoration.Parent = this.ZIvmeRTextBox;
-            this.ZIvmeRTextBox.Size = new System.Drawing.Size(69, 22);
+            this.ZIvmeRTextBox.Size = new System.Drawing.Size(71, 22);
             this.ZIvmeRTextBox.TabIndex = 12;
             // 
             // YIvmeRTextBox
@@ -1691,7 +858,7 @@ namespace MyRealRocket
             this.YIvmeRTextBox.ForeColor = System.Drawing.Color.Snow;
             this.YIvmeRTextBox.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.YIvmeRTextBox.HoveredState.Parent = this.YIvmeRTextBox;
-            this.YIvmeRTextBox.Location = new System.Drawing.Point(108, 123);
+            this.YIvmeRTextBox.Location = new System.Drawing.Point(108, 152);
             this.YIvmeRTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.YIvmeRTextBox.Name = "YIvmeRTextBox";
             this.YIvmeRTextBox.PasswordChar = '\0';
@@ -1699,7 +866,7 @@ namespace MyRealRocket
             this.YIvmeRTextBox.ReadOnly = true;
             this.YIvmeRTextBox.SelectedText = "";
             this.YIvmeRTextBox.ShadowDecoration.Parent = this.YIvmeRTextBox;
-            this.YIvmeRTextBox.Size = new System.Drawing.Size(69, 22);
+            this.YIvmeRTextBox.Size = new System.Drawing.Size(84, 22);
             this.YIvmeRTextBox.TabIndex = 11;
             // 
             // XIvmeRTextBox
@@ -1718,7 +885,7 @@ namespace MyRealRocket
             this.XIvmeRTextBox.ForeColor = System.Drawing.Color.Snow;
             this.XIvmeRTextBox.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.XIvmeRTextBox.HoveredState.Parent = this.XIvmeRTextBox;
-            this.XIvmeRTextBox.Location = new System.Drawing.Point(12, 123);
+            this.XIvmeRTextBox.Location = new System.Drawing.Point(12, 152);
             this.XIvmeRTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XIvmeRTextBox.Name = "XIvmeRTextBox";
             this.XIvmeRTextBox.PasswordChar = '\0';
@@ -1726,7 +893,7 @@ namespace MyRealRocket
             this.XIvmeRTextBox.ReadOnly = true;
             this.XIvmeRTextBox.SelectedText = "";
             this.XIvmeRTextBox.ShadowDecoration.Parent = this.XIvmeRTextBox;
-            this.XIvmeRTextBox.Size = new System.Drawing.Size(69, 22);
+            this.XIvmeRTextBox.Size = new System.Drawing.Size(73, 22);
             this.XIvmeRTextBox.TabIndex = 100;
             // 
             // BoylamRTextBox
@@ -1753,7 +920,7 @@ namespace MyRealRocket
             this.BoylamRTextBox.ReadOnly = true;
             this.BoylamRTextBox.SelectedText = "";
             this.BoylamRTextBox.ShadowDecoration.Parent = this.BoylamRTextBox;
-            this.BoylamRTextBox.Size = new System.Drawing.Size(69, 22);
+            this.BoylamRTextBox.Size = new System.Drawing.Size(84, 22);
             this.BoylamRTextBox.TabIndex = 200;
             // 
             // EnlemRTextBox
@@ -1780,7 +947,7 @@ namespace MyRealRocket
             this.EnlemRTextBox.ReadOnly = true;
             this.EnlemRTextBox.SelectedText = "";
             this.EnlemRTextBox.ShadowDecoration.Parent = this.EnlemRTextBox;
-            this.EnlemRTextBox.Size = new System.Drawing.Size(69, 22);
+            this.EnlemRTextBox.Size = new System.Drawing.Size(73, 22);
             this.EnlemRTextBox.TabIndex = 200;
             // 
             // guna2TextBox8
@@ -1788,7 +955,7 @@ namespace MyRealRocket
             this.guna2TextBox8.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox8.BorderRadius = 1;
             this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox8.DefaultText = "Yükseklik";
+            this.guna2TextBox8.DefaultText = "Altitude";
             this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1807,7 +974,7 @@ namespace MyRealRocket
             this.guna2TextBox8.PlaceholderText = "";
             this.guna2TextBox8.ReadOnly = true;
             this.guna2TextBox8.SelectedText = "";
-            this.guna2TextBox8.SelectionStart = 9;
+            this.guna2TextBox8.SelectionStart = 8;
             this.guna2TextBox8.ShadowDecoration.Parent = this.guna2TextBox8;
             this.guna2TextBox8.Size = new System.Drawing.Size(77, 25);
             this.guna2TextBox8.TabIndex = 7;
@@ -1817,7 +984,7 @@ namespace MyRealRocket
             this.guna2TextBox7.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox7.BorderRadius = 1;
             this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox7.DefaultText = "Basınç";
+            this.guna2TextBox7.DefaultText = "Pressure";
             this.guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1829,16 +996,16 @@ namespace MyRealRocket
             this.guna2TextBox7.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox7.HoverState.Parent = this.guna2TextBox7;
-            this.guna2TextBox7.Location = new System.Drawing.Point(203, 33);
+            this.guna2TextBox7.Location = new System.Drawing.Point(209, 33);
             this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox7.Name = "guna2TextBox7";
             this.guna2TextBox7.PasswordChar = '\0';
             this.guna2TextBox7.PlaceholderText = "";
             this.guna2TextBox7.ReadOnly = true;
             this.guna2TextBox7.SelectedText = "";
-            this.guna2TextBox7.SelectionStart = 6;
+            this.guna2TextBox7.SelectionStart = 8;
             this.guna2TextBox7.ShadowDecoration.Parent = this.guna2TextBox7;
-            this.guna2TextBox7.Size = new System.Drawing.Size(69, 25);
+            this.guna2TextBox7.Size = new System.Drawing.Size(71, 25);
             this.guna2TextBox7.TabIndex = 6;
             // 
             // guna2TextBox5
@@ -1846,7 +1013,7 @@ namespace MyRealRocket
             this.guna2TextBox5.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox5.BorderRadius = 1;
             this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "İvme-Y";
+            this.guna2TextBox5.DefaultText = "Acc-Y";
             this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1858,16 +1025,16 @@ namespace MyRealRocket
             this.guna2TextBox5.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox5.HoverState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Location = new System.Drawing.Point(108, 94);
+            this.guna2TextBox5.Location = new System.Drawing.Point(108, 123);
             this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PasswordChar = '\0';
             this.guna2TextBox5.PlaceholderText = "";
             this.guna2TextBox5.ReadOnly = true;
             this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.SelectionStart = 6;
+            this.guna2TextBox5.SelectionStart = 5;
             this.guna2TextBox5.ShadowDecoration.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Size = new System.Drawing.Size(69, 25);
+            this.guna2TextBox5.Size = new System.Drawing.Size(84, 25);
             this.guna2TextBox5.TabIndex = 4;
             // 
             // guna2TextBox4
@@ -1875,7 +1042,7 @@ namespace MyRealRocket
             this.guna2TextBox4.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox4.BorderRadius = 1;
             this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "İvme-Z";
+            this.guna2TextBox4.DefaultText = "Acc-Z";
             this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1887,16 +1054,16 @@ namespace MyRealRocket
             this.guna2TextBox4.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox4.HoverState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Location = new System.Drawing.Point(203, 94);
+            this.guna2TextBox4.Location = new System.Drawing.Point(209, 123);
             this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PasswordChar = '\0';
             this.guna2TextBox4.PlaceholderText = "";
             this.guna2TextBox4.ReadOnly = true;
             this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.SelectionStart = 6;
+            this.guna2TextBox4.SelectionStart = 5;
             this.guna2TextBox4.ShadowDecoration.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Size = new System.Drawing.Size(69, 25);
+            this.guna2TextBox4.Size = new System.Drawing.Size(71, 25);
             this.guna2TextBox4.TabIndex = 3;
             // 
             // guna2TextBox3
@@ -1904,7 +1071,7 @@ namespace MyRealRocket
             this.guna2TextBox3.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox3.BorderRadius = 1;
             this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "İvme-X";
+            this.guna2TextBox3.DefaultText = "Acc-X";
             this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1916,16 +1083,16 @@ namespace MyRealRocket
             this.guna2TextBox3.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(12, 94);
+            this.guna2TextBox3.Location = new System.Drawing.Point(12, 123);
             this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.ReadOnly = true;
             this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.SelectionStart = 6;
+            this.guna2TextBox3.SelectionStart = 5;
             this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(69, 25);
+            this.guna2TextBox3.Size = new System.Drawing.Size(73, 25);
             this.guna2TextBox3.TabIndex = 2;
             // 
             // guna2TextBox2
@@ -1933,7 +1100,7 @@ namespace MyRealRocket
             this.guna2TextBox2.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox2.BorderRadius = 1;
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "Boylam";
+            this.guna2TextBox2.DefaultText = "Longitude";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1952,9 +1119,9 @@ namespace MyRealRocket
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.ReadOnly = true;
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.SelectionStart = 6;
+            this.guna2TextBox2.SelectionStart = 9;
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(69, 25);
+            this.guna2TextBox2.Size = new System.Drawing.Size(84, 25);
             this.guna2TextBox2.TabIndex = 1;
             // 
             // guna2TextBox1
@@ -1962,7 +1129,7 @@ namespace MyRealRocket
             this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TextBox1.BorderRadius = 1;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "Enlem";
+            this.guna2TextBox1.DefaultText = "Latitude ";
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -1981,22 +1148,101 @@ namespace MyRealRocket
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.ReadOnly = true;
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.SelectionStart = 5;
+            this.guna2TextBox1.SelectionStart = 9;
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(69, 25);
+            this.guna2TextBox1.Size = new System.Drawing.Size(73, 25);
             this.guna2TextBox1.TabIndex = 0;
             // 
             // guna2Panel6
             // 
+            this.guna2Panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.guna2Panel6.BorderColor = System.Drawing.Color.DimGray;
-            this.guna2Panel6.BorderRadius = 2;
-            this.guna2Panel6.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Panel6.BorderRadius = 8;
+            this.guna2Panel6.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel6.BorderThickness = 1;
+            this.guna2Panel6.Controls.Add(this.siticoneTextBox1);
+            this.guna2Panel6.Controls.Add(this.chart2);
             this.guna2Panel6.Location = new System.Drawing.Point(1017, 240);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.ShadowDecoration.Parent = this.guna2Panel6;
             this.guna2Panel6.Size = new System.Drawing.Size(450, 199);
             this.guna2Panel6.TabIndex = 7;
+            // 
+            // siticoneTextBox1
+            // 
+            this.siticoneTextBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.siticoneTextBox1.BorderColor = System.Drawing.Color.DimGray;
+            this.siticoneTextBox1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.siticoneTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.siticoneTextBox1.DefaultText = "";
+            this.siticoneTextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.siticoneTextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.siticoneTextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox1.DisabledState.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.siticoneTextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox1.FocusedState.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.ForeColor = System.Drawing.Color.Snow;
+            this.siticoneTextBox1.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox1.HoveredState.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.Location = new System.Drawing.Point(383, 58);
+            this.siticoneTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneTextBox1.Name = "siticoneTextBox1";
+            this.siticoneTextBox1.PasswordChar = '\0';
+            this.siticoneTextBox1.PlaceholderText = "";
+            this.siticoneTextBox1.ReadOnly = true;
+            this.siticoneTextBox1.SelectedText = "";
+            this.siticoneTextBox1.ShadowDecoration.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.Size = new System.Drawing.Size(44, 22);
+            this.siticoneTextBox1.TabIndex = 203;
+            // 
+            // chart2
+            // 
+            this.chart2.BackColor = System.Drawing.Color.Transparent;
+            chartArea2.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.True;
+            chartArea2.AxisX.IsMarginVisible = false;
+            chartArea2.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea2.AxisX.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX.MajorGrid.Enabled = false;
+            chartArea2.AxisX.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX.MinorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX2.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX2.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX2.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX2.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX2.MinorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisX2.TitleForeColor = System.Drawing.Color.White;
+            chartArea2.AxisY.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.True;
+            chartArea2.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea2.AxisY.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisY.MajorGrid.Enabled = false;
+            chartArea2.AxisY.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisY.TitleForeColor = System.Drawing.Color.White;
+            chartArea2.AxisY2.LineColor = System.Drawing.Color.White;
+            chartArea2.AxisY2.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            chartArea2.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea2);
+            legend2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            legend2.ForeColor = System.Drawing.Color.White;
+            legend2.InterlacedRows = true;
+            legend2.Name = "Legend1";
+            this.chart2.Legends.Add(legend2);
+            this.chart2.Location = new System.Drawing.Point(0, 18);
+            this.chart2.Name = "chart2";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Color = System.Drawing.Color.MediumBlue;
+            series2.EmptyPointStyle.IsValueShownAsLabel = true;
+            series2.Legend = "Legend1";
+            series2.Name = "Pressure";
+            this.chart2.Series.Add(series2);
+            this.chart2.Size = new System.Drawing.Size(447, 178);
+            this.chart2.TabIndex = 1;
+            this.chart2.Text = "chart2";
             // 
             // bunifuDragControl1
             // 
@@ -2007,9 +1253,10 @@ namespace MyRealRocket
             // 
             // guna2Panel7
             // 
+            this.guna2Panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.guna2Panel7.BorderColor = System.Drawing.Color.DimGray;
-            this.guna2Panel7.BorderRadius = 2;
-            this.guna2Panel7.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Panel7.BorderRadius = 8;
+            this.guna2Panel7.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel7.BorderThickness = 1;
             this.guna2Panel7.Controls.Add(this.SicaklikRTextBox);
             this.guna2Panel7.Controls.Add(this.chart1);
@@ -2050,47 +1297,47 @@ namespace MyRealRocket
             // 
             // chart1
             // 
-            this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            chartArea2.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.True;
-            chartArea2.AxisX.IsMarginVisible = false;
-            chartArea2.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea2.AxisX.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX.MajorGrid.Enabled = false;
-            chartArea2.AxisX.MajorGrid.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX.MajorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX.MinorGrid.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX.MinorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX2.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX2.MajorGrid.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX2.MajorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX2.MinorGrid.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX2.MinorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisX2.TitleForeColor = System.Drawing.Color.White;
-            chartArea2.AxisY.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.True;
-            chartArea2.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea2.AxisY.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisY.MajorGrid.Enabled = false;
-            chartArea2.AxisY.MajorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisY.TitleForeColor = System.Drawing.Color.White;
-            chartArea2.AxisY2.LineColor = System.Drawing.Color.White;
-            chartArea2.AxisY2.MinorGrid.LineColor = System.Drawing.Color.White;
-            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            legend2.ForeColor = System.Drawing.Color.White;
-            legend2.InterlacedRows = true;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            this.chart1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.True;
+            chartArea1.AxisX.IsMarginVisible = false;
+            chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisX.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.MajorGrid.Enabled = false;
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.MinorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.MinorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.TitleForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.True;
+            chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY.MajorGrid.Enabled = false;
+            chartArea1.AxisY.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY.TitleForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            legend1.ForeColor = System.Drawing.Color.White;
+            legend1.InterlacedRows = true;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(3, 11);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Color = System.Drawing.Color.Red;
-            series2.EmptyPointStyle.IsValueShownAsLabel = true;
-            series2.Legend = "Legend1";
-            series2.Name = "Sıcaklık";
-            this.chart1.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Color = System.Drawing.Color.Red;
+            series1.EmptyPointStyle.IsValueShownAsLabel = true;
+            series1.Legend = "Legend1";
+            series1.Name = "Temperature";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(447, 178);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -2175,7 +1422,7 @@ namespace MyRealRocket
             // 
             // glControl1
             // 
-            this.glControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.glControl1.BackColor = System.Drawing.Color.Transparent;
             this.glControl1.Location = new System.Drawing.Point(14, 8);
             this.glControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.glControl1.Name = "glControl1";
@@ -2188,7 +1435,7 @@ namespace MyRealRocket
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.Location = new System.Drawing.Point(432, 315);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(427, 272);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.BorderRadius = 0;
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
@@ -2199,8 +1446,9 @@ namespace MyRealRocket
             // 
             // bunifuGroupBox1
             // 
+            this.bunifuGroupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.bunifuGroupBox1.BorderColor = System.Drawing.Color.DimGray;
-            this.bunifuGroupBox1.BorderRadius = 1;
+            this.bunifuGroupBox1.BorderRadius = 8;
             this.bunifuGroupBox1.BorderThickness = 1;
             this.bunifuGroupBox1.Controls.Add(this.bunifuLabel8);
             this.bunifuGroupBox1.Controls.Add(this.bunifuLabel7);
@@ -2212,13 +1460,13 @@ namespace MyRealRocket
             this.bunifuGroupBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuGroupBox1.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuGroupBox1.LabelIndent = 10;
-            this.bunifuGroupBox1.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Dash;
+            this.bunifuGroupBox1.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
             this.bunifuGroupBox1.Location = new System.Drawing.Point(15, 249);
             this.bunifuGroupBox1.Name = "bunifuGroupBox1";
             this.bunifuGroupBox1.Size = new System.Drawing.Size(385, 175);
             this.bunifuGroupBox1.TabIndex = 23;
             this.bunifuGroupBox1.TabStop = false;
-            this.bunifuGroupBox1.Text = "Paraşüt Durumu";
+            this.bunifuGroupBox1.Text = "Parachute Status";
             // 
             // bunifuLabel8
             // 
@@ -2233,7 +1481,7 @@ namespace MyRealRocket
             this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel8.Size = new System.Drawing.Size(57, 18);
             this.bunifuLabel8.TabIndex = 25;
-            this.bunifuLabel8.Text = "Kapalı";
+            this.bunifuLabel8.Text = "Closed";
             this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -2250,7 +1498,7 @@ namespace MyRealRocket
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel7.Size = new System.Drawing.Size(57, 18);
             this.bunifuLabel7.TabIndex = 25;
-            this.bunifuLabel7.Text = "Kapalı";
+            this.bunifuLabel7.Text = "Closed";
             this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -2267,7 +1515,7 @@ namespace MyRealRocket
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel6.Size = new System.Drawing.Size(57, 18);
             this.bunifuLabel6.TabIndex = 24;
-            this.bunifuLabel6.Text = "Kapalı";
+            this.bunifuLabel6.Text = "Closed";
             this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -2284,7 +1532,7 @@ namespace MyRealRocket
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel5.Size = new System.Drawing.Size(237, 18);
             this.bunifuLabel5.TabIndex = 25;
-            this.bunifuLabel5.Text = "Payload Paraşütünün Durumu:";
+            this.bunifuLabel5.Text = "Payload Parachute Status :";
             this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -2301,7 +1549,7 @@ namespace MyRealRocket
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel4.Size = new System.Drawing.Size(262, 18);
             this.bunifuLabel4.TabIndex = 24;
-            this.bunifuLabel4.Text = "Sürüklenme Paraşütünün Durumu:";
+            this.bunifuLabel4.Text = "Drag Parachute Status :";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -2318,15 +1566,17 @@ namespace MyRealRocket
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(190, 18);
             this.bunifuLabel3.TabIndex = 23;
-            this.bunifuLabel3.Text = "Ana Paraşütün Durumu:";
+            this.bunifuLabel3.Tag = " ";
+            this.bunifuLabel3.Text = "Main Parachute Status :";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // guna2Panel2
             // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.guna2Panel2.BorderColor = System.Drawing.Color.DimGray;
             this.guna2Panel2.BorderRadius = 2;
-            this.guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel2.BorderThickness = 1;
             this.guna2Panel2.Controls.Add(this.glControl1);
             this.guna2Panel2.Location = new System.Drawing.Point(1142, 458);
@@ -2337,9 +1587,10 @@ namespace MyRealRocket
             // 
             // guna2Panel4
             // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.guna2Panel4.BorderColor = System.Drawing.Color.DimGray;
-            this.guna2Panel4.BorderRadius = 2;
-            this.guna2Panel4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Panel4.BorderRadius = 8;
+            this.guna2Panel4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
             this.guna2Panel4.BorderThickness = 1;
             this.guna2Panel4.Location = new System.Drawing.Point(1017, 458);
             this.guna2Panel4.Name = "guna2Panel4";
@@ -2347,24 +1598,129 @@ namespace MyRealRocket
             this.guna2Panel4.Size = new System.Drawing.Size(119, 323);
             this.guna2Panel4.TabIndex = 25;
             // 
+            // bunifuGroupBox2
+            // 
+            this.bunifuGroupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.bunifuGroupBox2.BorderColor = System.Drawing.Color.DimGray;
+            this.bunifuGroupBox2.BorderRadius = 8;
+            this.bunifuGroupBox2.BorderThickness = 1;
+            this.bunifuGroupBox2.Controls.Add(this.map);
+            this.bunifuGroupBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuGroupBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuGroupBox2.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuGroupBox2.LabelIndent = 10;
+            this.bunifuGroupBox2.LineStyle = Bunifu.UI.WinForms.BunifuGroupBox.LineStyles.Solid;
+            this.bunifuGroupBox2.Location = new System.Drawing.Point(18, 458);
+            this.bunifuGroupBox2.Name = "bunifuGroupBox2";
+            this.bunifuGroupBox2.Size = new System.Drawing.Size(385, 325);
+            this.bunifuGroupBox2.TabIndex = 202;
+            this.bunifuGroupBox2.TabStop = false;
+            this.bunifuGroupBox2.Text = "Location";
+            // 
+            // bunifuLabel13
+            // 
+            this.bunifuLabel13.AllowParentOverrides = false;
+            this.bunifuLabel13.AutoEllipsis = false;
+            this.bunifuLabel13.AutoSize = false;
+            this.bunifuLabel13.CursorType = null;
+            this.bunifuLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel13.ForeColor = System.Drawing.SystemColors.Control;
+            this.bunifuLabel13.Location = new System.Drawing.Point(11, 86);
+            this.bunifuLabel13.Name = "bunifuLabel13";
+            this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel13.Size = new System.Drawing.Size(262, 18);
+            this.bunifuLabel13.TabIndex = 24;
+            this.bunifuLabel13.Text = "Drag Parachute Status :";
+            this.bunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel12
+            // 
+            this.bunifuLabel12.AllowParentOverrides = false;
+            this.bunifuLabel12.AutoEllipsis = false;
+            this.bunifuLabel12.AutoSize = false;
+            this.bunifuLabel12.CursorType = null;
+            this.bunifuLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel12.ForeColor = System.Drawing.SystemColors.Control;
+            this.bunifuLabel12.Location = new System.Drawing.Point(12, 121);
+            this.bunifuLabel12.Name = "bunifuLabel12";
+            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel12.Size = new System.Drawing.Size(237, 18);
+            this.bunifuLabel12.TabIndex = 25;
+            this.bunifuLabel12.Text = "Payload Parachute Status :";
+            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel11
+            // 
+            this.bunifuLabel11.AllowParentOverrides = false;
+            this.bunifuLabel11.AutoEllipsis = false;
+            this.bunifuLabel11.AutoSize = false;
+            this.bunifuLabel11.CursorType = null;
+            this.bunifuLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel11.ForeColor = System.Drawing.Color.Red;
+            this.bunifuLabel11.Location = new System.Drawing.Point(309, 53);
+            this.bunifuLabel11.Name = "bunifuLabel11";
+            this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel11.Size = new System.Drawing.Size(57, 18);
+            this.bunifuLabel11.TabIndex = 24;
+            this.bunifuLabel11.Text = "Closed";
+            this.bunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel10
+            // 
+            this.bunifuLabel10.AllowParentOverrides = false;
+            this.bunifuLabel10.AutoEllipsis = false;
+            this.bunifuLabel10.AutoSize = false;
+            this.bunifuLabel10.CursorType = null;
+            this.bunifuLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel10.ForeColor = System.Drawing.Color.Red;
+            this.bunifuLabel10.Location = new System.Drawing.Point(309, 86);
+            this.bunifuLabel10.Name = "bunifuLabel10";
+            this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel10.Size = new System.Drawing.Size(57, 18);
+            this.bunifuLabel10.TabIndex = 25;
+            this.bunifuLabel10.Text = "Closed";
+            this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel9
+            // 
+            this.bunifuLabel9.AllowParentOverrides = false;
+            this.bunifuLabel9.AutoEllipsis = false;
+            this.bunifuLabel9.AutoSize = false;
+            this.bunifuLabel9.CursorType = null;
+            this.bunifuLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel9.ForeColor = System.Drawing.Color.Red;
+            this.bunifuLabel9.Location = new System.Drawing.Point(309, 121);
+            this.bunifuLabel9.Name = "bunifuLabel9";
+            this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel9.Size = new System.Drawing.Size(57, 18);
+            this.bunifuLabel9.TabIndex = 25;
+            this.bunifuLabel9.Text = "Closed";
+            this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(1495, 792);
+            this.Controls.Add(this.bunifuGroupBox2);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2Panel4);
             this.Controls.Add(this.guna2Panel2);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.bunifuGroupBox1);
-            this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.MinimizeButton);
             this.Controls.Add(this.CloseButton);
             this.Controls.Add(this.guna2Panel7);
             this.Controls.Add(this.guna2Panel6);
             this.Controls.Add(this.guna2Panel5);
-            this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.siticoneCustomCheckBox1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -2373,14 +1729,16 @@ namespace MyRealRocket
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
+            this.guna2Panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             this.guna2Panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.bunifuGroupBox1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
+            this.bunifuGroupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2394,7 +1752,6 @@ namespace MyRealRocket
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private ns1.SiticoneCustomCheckBox siticoneCustomCheckBox1;
         private ns1.SiticoneButton RefreshButton;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
         private ns1.SiticoneComboBox siticoneComboBox2;
@@ -2416,7 +1773,6 @@ namespace MyRealRocket
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private System.Windows.Forms.LinkLabel linkLabel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
         private System.IO.Ports.SerialPort serialPort1;
         private ns1.SiticoneButton DisconnectButton;
@@ -2428,7 +1784,6 @@ namespace MyRealRocket
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox18;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox19;
         private GMap.NET.WindowsForms.GMapControl map;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Bunifu.UI.WinForms.BunifuImageButton CloseButton;
@@ -2451,37 +1806,18 @@ namespace MyRealRocket
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel5;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private ns1.SiticoneTextBox siticoneTextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
-        private ns1.SiticoneTextBox siticoneTextBox2;
-        private ns1.SiticoneTextBox siticoneTextBox3;
-        private ns1.SiticoneTextBox siticoneTextBox4;
-        private ns1.SiticoneTextBox siticoneTextBox5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox11;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox12;
-        private ns1.SiticoneTextBox siticoneTextBox6;
-        private ns1.SiticoneTextBox siticoneTextBox7;
-        private ns1.SiticoneTextBox siticoneTextBox8;
-        private ns1.SiticoneTextBox siticoneTextBox9;
-        private ns1.SiticoneTextBox siticoneTextBox10;
-        private ns1.SiticoneTextBox siticoneTextBox11;
-        private ns1.SiticoneTextBox siticoneTextBox12;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox13;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox14;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox15;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox16;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox20;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox22;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox23;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private ns1.SiticoneTextBox SicaklikRTextBox;
-        private ns1.SiticoneTextBox siticoneTextBox13;
-        private ns1.SiticoneTextBox siticoneTextBox14;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private ns1.SiticoneTextBox siticoneTextBox15;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
+        private Bunifu.UI.WinForms.BunifuGroupBox bunifuGroupBox2;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel13;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel12;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel11;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel10;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel9;
+        private ns1.SiticoneTextBox siticoneTextBox1;
     }
 }
 
